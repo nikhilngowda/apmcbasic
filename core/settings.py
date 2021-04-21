@@ -1,7 +1,4 @@
 # -*- encoding: utf-8 -*-
-"""
-Copyright (c) 2019 - present AppSeed.us
-"""
 
 import os
 from decouple import config
@@ -30,7 +27,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app'  # Enable the inner app 
+    'app',  # Enable the inner app 
+    'sales',
+    
 ]
 
 MIDDLEWARE = [
@@ -72,8 +71,11 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME'  : 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME':os.environ.get('DB_NAME'),
+        'USER':os.environ.get('DB_USER'),
+        'PASSWORD':os.environ.get('DB_USER_PASSWORD'),
+        'HOST':os.environ.get('DB_HOST')
     }
 }
 

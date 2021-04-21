@@ -1,21 +1,5 @@
 @charset 'UTF-8';
-/*!
 
-=========================================================
-* Argon Dashboard - v1.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-dashboard
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
-
-* Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 :root
 {
     --blue: #5e72e4;
@@ -8769,7 +8753,7 @@ a.close.disabled
 
 .bg-primary
 {
-    background-color: #5e72e4 !important;
+    background-color: #ccf2f4 !important;
 }
 
 a.bg-primary:hover,
@@ -17886,7 +17870,7 @@ a.text-darker:focus
 
 .text-muted
 {
-    color: #8898aa !important;
+    color: #5e72e4 !important;
 }
 
 .text-black-50
@@ -24153,7 +24137,7 @@ button.bg-lighter:focus
 
 .bg-gradient-primary
 {
-    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+    background: linear-gradient(87deg, #825ee4 0, #5e72e4 100%) !important;
 }
 
 .bg-gradient-secondary
@@ -24509,7 +24493,7 @@ button.section-darker:focus
 
 .bg-gradient-primary
 {
-    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+    background: linear-gradient(87deg, #825ee4 0, #5e72e4 100%) !important;
 }
 
 .bg-gradient-secondary
